@@ -1,1 +1,38 @@
-<div><iframe width="100%" height="100vh" frameBorder="0" src="https://www.mindmeister.com/maps/public_map_shell/3737658505/inpi?width=600&height=400&z=auto&no_share=1&no_logo=1" scrolling="no" style="overflow:hidden;margin-bottom:5px">Seu navegador não pode exibir frames. Por favor, acesse <a href="https://www.mindmeister.com/3737658505/inpi" target="_blank">INPI</a> no MindMeister.</iframe></div>
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mapa Mental - INPI</title>
+    <style>
+        /* Remove margens e preenchimentos padrão e define a altura total */
+        html, body {
+            margin: 0;
+            padding: 0;
+            width: 100%;
+            height: 100%;
+            overflow: hidden; /* Evita barras de rolagem indesejadas */
+        }
+        /* Faz o container do iframe ocupar todo o espaço */
+        .map-container {
+            width: 100%;
+            height: 100%;
+        }
+        /* Faz o iframe preencher completamente o container */
+        .map-container iframe {
+            width: 100%;
+            height: 100%;
+            border: none; /* Remove a borda padrão do iframe */
+        }
+    </style>
+</head>
+<body>
+
+    <div class="map-container">
+        <iframe src="https://www.mindmeister.com/maps/public_map_shell/3737658505/inpi?width=600&height=400&z=auto&no_share=1&no_logo=1">
+            Seu navegador não pode exibir frames. Por favor, acesse <a href="https://www.mindmeister.com/3737658505/inpi" target="_blank">INPI</a> no MindMeister.
+        </iframe>
+    </div>
+
+</body>
+</html>
